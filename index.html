@@ -21,16 +21,48 @@
             <input id="name2" class="form-control" type="text">
           </div>
 
-          <h2>Pick your favorite beverage!</h2>
+          <h2>Use the Dropdown Menu to pick your favorite beverage!</h2>
 
           <select class="form-control" id="beverage">
-          <option>Coffee</option>
-          <option>Tea</option>
-          <option>Kombucha</option>
-          <option>Water</option>
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
           </select>
 
-        <button type="submit" class="btn">Show me the letter!</button>
+          <h2>Pick your favorite ice cream!</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+
+          <h2>Select your birthday!</h2>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+
+          <h2>Choose your favorite color!</h2>
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+        <button type="submit" class="btn"><h2>Tell me about myself!</h2></button>
         </form>
       </div>
 
@@ -38,7 +70,9 @@
 
       <div id="story">
 
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+      <p>OK. Your name is <span class="name1"></span> <span class="name2"></span>. You love to drink <span class="beverage"></span>.Your favorite ice cream is <span class="flavor"></span>.
+
+        <span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
 
       </div>
     </div>
